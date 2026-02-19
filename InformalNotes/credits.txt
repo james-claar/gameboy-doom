@@ -1,0 +1,1 @@
+Initial circuit board schematic: https://github.com/djedditt/kicad-gamepaks

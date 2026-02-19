@@ -1,0 +1,2 @@
+GameBoy technical reference: https://gbdev.io/pandocs/
+Obvious fake lol: https://www.youtube.com/shorts/gyOa-hc7e2A
