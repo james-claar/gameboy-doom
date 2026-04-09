@@ -7,6 +7,8 @@ This project is an unofficial Nintendo GameBoy cartridge designed to run Dom (19
 
 ### Implmentation Details
 The custom cartridge runs Doom on its own and streams video data to the GameBoy, instead of running it on the GameBoy's processor.
+
+Here's a diagram showing data flow from the player pressing a button, to displaying fully rendered video data on the GameBoy's screen.
 ![Dataflow Block Diagram](https://github.com/james-claar/gameboy-doom/blob/main/Documentation/Images/DataflowBlockDiagram.png)
 
 More details WIP
