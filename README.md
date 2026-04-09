@@ -19,7 +19,7 @@ More details WIP
 ### Credits
 Something very similar to this project has already been made open source by Synogate, who wrote a [blog post](https://www.synogate.com/blog/2024/bfc_doom_soc_intro.html) about it.
 
-However, as of April 2026, I could not find any up-to-date documentation on how to build and program one yourself, which is why I created this project.
+However, as of April 2026, I could not find any up-to-date documentation on how to build and program one yourself, which is why I created this repo.
 
 
 ### Disclaimer
