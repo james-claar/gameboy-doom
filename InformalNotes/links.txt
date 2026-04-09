@@ -1,4 +1,4 @@
-My GitHub page:
+My GitHub page: https://github.com/james-claar/gameboy-doom
 Best technical reference: https://gbdev.io/pandocs/
 Gameboy DMG technical reference: https://gekkio.fi/files/gb-docs/gbctr.pdf
 Circuit diagrams: https://gbdev.gg8.se/wiki/articles/DMG_Schematics
