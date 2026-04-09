@@ -1,2 +1,10 @@
-GameBoy technical reference: https://gbdev.io/pandocs/
-Obvious fake lol: https://www.youtube.com/shorts/gyOa-hc7e2A
+My GitHub page:
+Best technical reference: https://gbdev.io/pandocs/
+Gameboy DMG technical reference: https://gekkio.fi/files/gb-docs/gbctr.pdf
+Circuit diagrams: https://gbdev.gg8.se/wiki/articles/DMG_Schematics
+Max1000 tutorial: https://github.com/vpecanins/max1000-tutorial
+Max1000 Linux driver: https://zipcpu.com/blog/2017/12/16/max1k.html
+UPDATE: SOMEONE DID IT IN 2024 https://www.synogate.com/blog/2024/bfc_doom_soc_intro.html
+THEIR GITHUB: https://github.com/synogate/gameboy-fpga-cartridge
+
+Obvious fake demo lol: https://www.youtube.com/shorts/gyOa-hc7e2A
