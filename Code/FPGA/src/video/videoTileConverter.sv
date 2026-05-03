@@ -22,7 +22,7 @@ generate
                               (7 - (x & 16'h0007))
                             + (16 * (y & 16'h0007))
                             + (8 * isHighBit)
-                        ] = frame[x][y][isHighBit]
+                        ] = frame[x][y][isHighBit];
             end
         end
     end

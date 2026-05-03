@@ -4,7 +4,7 @@
 // Hardware Register Addresses ===================================================
 
 // Misc
-parameter HARDWARE_REGISTER_ADDRESS_JOYP        = 16'hFF00; // Joypad
+parameter HARDWARE_REGISTER_ADDRESS_JOYP           = 16'hFF00; // Joypad
 parameter HARDWARE_REGISTER_ADDRESS_SB             = 16'hFF01; // Serial transfer data
 parameter HARDWARE_REGISTER_ADDRESS_SC             = 16'hFF02; // Serial transfer control
 parameter HARDWARE_REGISTER_ADDRESS_DIV            = 16'hFF04; // Divider register

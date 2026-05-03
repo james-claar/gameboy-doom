@@ -16,15 +16,15 @@ localparam RANGE_SIZE = END_ADDRESS + 1 - START_ADDRESS;
 
 localparam INSTRUCTION_NOP = 8'h00; // "nop" 8080 instruction
 localparam INSTRUCTION_JP_0150 = 24'hF25001; // "jp $0150" 8080 instruction
-localparam ENTRY_INSTRUCTIONS = {INSTRUCTION_NOP, INSTRUCTION_JP_0150}
+localparam ENTRY_INSTRUCTIONS = {INSTRUCTION_NOP, INSTRUCTION_JP_0150};
 
 // Nintendo logo (this is ok under copyright law
-// since it is required for the game to work)
+// because it is required for the game to work)
 localparam NINTENDO_LOGO = {
     128'hCEED6666CC0D000B03730083000C000D,
     128'h0008111F8889000EDCCC6EE6DDDDD999,
     128'hBBBB67636E0EECCCDDDC999FBBB9333E
-}
+};
 
 localparam TITLE = 128'h444F4F4D000000000000000000000000; // "DOOM" in ASCII
 localparam NEW_LICENSEE_CODE = 16'h3030; // "00" in ASCII, for "None"
@@ -49,7 +49,7 @@ localparam [615:0] HEADER_DATA_NO_CHECKSUM = {
     DESTINATION_CODE,                     // 014A
     OLD_LICENSEE_CODE,                    // 014B
     MASK_ROM_VERSION_NO                   // 014C
-}
+};
 
 localparam [639:0] HEADER_DATA = {
     HEADER_DATA_NO_CHECKSUM,              // 0100-014C
@@ -67,7 +67,7 @@ function automatic [7:0] getChecksum (input [615:0] data);
 begin
     checksum = 8'd0;
     for (i = 0; i < RANGE_SIZE - 3; i = i + 1) begin
-        checksum = checksum - data[((8*i)+7):(8*i)] - 1
+        checksum = checksum - data[((8*i)+7):(8*i)] - 1;
     end
     getChecksum = sum;
 end
